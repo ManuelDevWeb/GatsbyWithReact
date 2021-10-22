@@ -2,15 +2,15 @@ import styled from "styled-components"
 import { above } from "./index"
 
 export const colors = {
-  green: "#98ca3f",
-  orange: "#f8b71c",
-  gray: "#969696",
-  darkBlue: "#1c3643",
-  lightBlue: "#1e5372",
-  softGray: "#f6f8f9",
+    green: "#98ca3f",
+    orange: "#f8b71c",
+    gray: "#969696",
+    darkBlue: "#1c3643",
+    lightBlue: "#1e5372",
+    softGray: "#f6f8f9",
 }
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled.header `
   background-image: linear-gradient(
     90deg,
     ${colors.darkBlue},
@@ -411,6 +411,7 @@ export const SizeSelect = styled.div`
 `
 export const Button = styled.button`
   cursor: pointer;
+  margin-top: 10px;
   background-color: ${({ type }) =>
     type === "outline" ? "transparent" : colors.green};
   color: ${({ type }) => (type === "outline" ? colors.darkBlue : "white")};

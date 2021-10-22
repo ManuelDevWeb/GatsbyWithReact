@@ -11,3 +11,7 @@
 5. Modificar el archivo: gatsby-config y gatsby-node
  
 6. Crear el componente Jumbo: src/components/Jumbo.js
+
+7. Crear el componente Thanks: src/pages/Thanks.js
+
+8. Crear el componente Cancel: src/pages/Cancel.js
