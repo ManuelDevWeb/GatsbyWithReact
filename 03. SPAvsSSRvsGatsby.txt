@@ -1,0 +1,64 @@
+-> React en Single Page Applications
+Este tipo de aplicaciones es muy común cuando trabajamos con React.js.
+
+Las SPAs son páginas que siempre cargan el mismo archivo HTML. Este, a 
+su vez, carga un archivo gigante de JavaScript con toda la lógica de 
+nuestra apliacación (por ejemplo, usando React.js).
+
+Estas páginas tienen una carga inicial muy lenta, ya que no podremos 
+ver la información importante hasta que termine de cargar el archivo de 
+JavaScript. Pero una vez termina la carga inicial, las SPAs son muy 
+rápidas, incluso al navegar por diferentes secciones de nuestra 
+aplicación.
+
+Como el archivo de JavaScript tiene todo el código de nuestra aplicación, 
+el tiempo de navegación pasa de segundos a milisegundos. No necesitamos 
+hacer más requests al servidor. Pero en mucho casos debemos esperar 
+algunos segundos para que termine la carga inicial y podamos utilizar la 
+aplicación.
+
+-> React en Server Side Rendering
+Diferentes herramientas como Next.js nos ayudan a utilizar React en el 
+servidor para no afectar el SEO y disminuir el tiempo de carga de nuestra 
+aplicación, todo esto sin perder interactividad.
+
+El Server Side Rendering tradicional es muy común en aplicaciones 
+construidas con WordPress, por ejemplo. Aunque estas páginas tienen un 
+tiempo de carga muy corto, la carga debe repetirse cada vez que el usuario 
+navega por nuestra aplicación, es decir, casi todas las veces que damos 
+click en un link o botón.
+
+Las herramientas de SSR con React.js son muy conscientes de este problema, 
+por lo que convierten nuestra aplicación en una SPA inmediatamente después 
+de que termina la carga inicial. Es decir, utilizan SSR en la primera 
+carga y luego se convierten en SPAs para mejorar la navegación e interactividad 
+de nuestro sitio.
+
+-> React en Gatsby: Lo mejor de ambos mundos
+Gatsby es un generador de sitios estáticos. Esto quiere decir que en vez 
+de renderizar desde el servidor, lo que sucede cada vez que un usuario 
+entra a nuestra aplicación, Gatsby renderiza el contenido solo una vez 
+en la etapa de desarrollo. Nuestro servidor no debe renderizar todo el 
+tiempo, solo envía el HTML inicial (ya renderizado) para que más adelante el 
+navegador se encargue de cargar el código JavaScript que nos ayudará a que 
+nuestra página funcione como una SPA.
+
+De esta forma obtenemos todos los beneficios: por ser una SPA, seguimos 
+teniendo una alta interactividad y navegación muy rápida, y además, conseguimos 
+una carga inicial muy rápida, en algunos casos incluso superior a la del SSR.
+
+-> Gatsby vs. WordPress
+Gatsby también nos ayuda a consumir información desde un CMS como WordPress. 
+De esta forma podemos editar nuestro contenido desde una plataforma que ya 
+conocemos sin que esto afecte al rendimiento de nuestra aplicación.
+
+Gatsby:
+- Utiliza el Virtual DOM (más velocidad)
+- Componentes
+- Hot Reloading
+- Code Splitting e imágenes responsivas
+
+WordPress:
+- Manejo manual del DOM
+- Debemos copiar y pegar para reutilizar código (aunque las buenas prácticas nos pueden ayudar bastante)
+- Refresh para ver los cambios

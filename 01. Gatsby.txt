@@ -1,0 +1,11 @@
+¿Qué es Gatsby?
+Gatsby es un framework gratuito y open source basado en React que permite desarrollar 
+de forma rápida sitios web y aplicaciones web rápidos.
+
+¿Cómo Funciona?
+Gatsby usa GraphQL para recolectar la información de nuestro sitio web desde diferentes 
+fuentes: APIs, CMS o nuestro sistema de archivos. Y teniendo lista la información, 
+renderiza nuestras vistas en React.js para construir sitios estáticos muy optimizados.
+
+Entre muchas otras aplicaciones, la documentación oficial de React.js está construida 
+con Gatsby: Reactjs.org.

@@ -1,0 +1,42 @@
+¿Qué es ESLint?
+ESLint es una herramienta de linting para Javascript. Un linter es un programa que 
+se encarga de revisar el código escrito y es capaz de señalar errores y posibles 
+bugs que podemos corregir para mejorar nuestros programas, de esta manera tenemos 
+acceso a los errores incluso antes de que sucedan.
+
+
+¿Por qué usar ESLint?
+Gracias a que JavaScript es un lenguaje dinámico y débilmente tipado, especialmente 
+propenso a errores por parte del programador es que ESLint es muy útil. Esta 
+herramienta nos ayuda a prevenir la manera de antaño para encontrar errores en este 
+lenguaje.
+
+
+ESLint y Gatsby
+Gatsby incluye una configuración integrada de ESLint . Para la mayoría de los usuarios, 
+la configuración incorporada de ESLint es todo lo que necesita. Sin embargo, si tienes 
+una configuración personalizada o una convención en tu equipo de trabajo podemos 
+configurarlo.
+
+1. Instalar: npm install -g gatsby-cli (Si no se tiene instalado)
+
+2. Crear un proyecto ejecutando (CMD): gatsby new gatsby-site
+
+* Trabajaremos sobre el proyecto gatsby_cli_project (Ir a este directorio)
+
+3. Ejecutar (CMD): npx eslint --init
+
+4. ¿Con qué objetivo vamos a usar ESLint?: To check syntax and find problems
+
+5. ¿Qué tipo de módulos va a utilizar nuestro proyecto?: Javascript modules.
+
+6. ¿Qué Framework/Biblioteca va a usar nuestro proyecto?: React
+
+7. ¿En qué entorno corre nuestro proyecto?: Browser & Node
+
+8. ¿En qué formato deseas el archivo de configuración?: JavaScript
+
+9. Por último, Hace falta una dependencia para trabajar con el estándar de 
+   JavaScript, ¿quieres instalarla ahora?: Yes
+
+10. Modificar el .eslintrc.js con las reglas que queramos

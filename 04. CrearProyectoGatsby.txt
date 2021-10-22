@@ -1,0 +1,33 @@
+Tenemos dos formas de instalar Gatsby y crear nuestros proyectos.
+
+1. A mano: Debemos crear las carpetas y archivos de nuestro proyecto 
+   siguiendo las prácticas de Gatsby.
+
+   - Ejecutar: npm init -y
+   - Instalar dependencias básicas para el proyecto: npm i react react-dom gatsby
+   - Agregar el script dev en el package.json
+   - Crear la carpeta: src
+   - Crear la carpeta: src/pages
+   - Crear el archivo: src/pages/index.js
+   - Ejecutar: npm run dev
+
+2. De forma global: Usamos gatsby-cli para generar un proyecto básico de 
+   Gatsby. No debemos crear los archivos ni las carpetas, solo ejecutar los 
+   siguientes comandos:
+
+   - Instalar: npm install -g gatsby-cli
+   - Crear proyecto ejecutando (CMD): gatsby new gatsby_cli_project
+   - Ejecutar (CMD): gatsby develop
+
+** Starters **
+La comunidad alrededor de Gatsby es increíble.
+
+https://www.gatsbyjs.com/starters/
+
+Los starters son proyectos creados con el fin de modificar el contenido y tener nuestro 
+sitio listo sin necesidad de hacer configuraciones. Solo debemos copiar el nombre del 
+starter y ejecutar el siguiente comando:   
+
+- Crear proyecto ejecutando (CMD): gatsby new tu-proyecto creador/nombre-del-starter
+  (gatsby new gatsby_app_starters gatsbyjs/gatsby-starter-blog)
+- Ejecutar (CMD): gatsby develop

@@ -1,0 +1,6 @@
+¿Por qué utilizar Gatsby?
+El futuro de la web es móvil, Javascript y APIs. Gatsby quiere ser el framework 
+universal de JavaScript que tiene la visió de que todo el “sitio web es un 
+aplicación web y toda aplicación web es un sitio web”. Además, Gatsby.js es un 
+generador de PWAs estáticas, que gracias a su funcionamiento nativo, permite una 
+carga óptima y una navegación muy rápida.
