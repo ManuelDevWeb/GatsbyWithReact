@@ -1,2 +1,0 @@
-
-1. Descargar el proyecto inicial del repositorio https://github.com/Jossdz/Gatsby-platzi/tree/master

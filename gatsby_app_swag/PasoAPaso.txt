@@ -1,0 +1,13 @@
+(TRABAJAR CON EL CMD)
+
+1. Crear el proyecto: gatsby new gatsby_app_swag
+
+2. Instalar: npm i styled-components
+
+3. Agregar el script  en el package.json: "start": "gatsby clean && gatsby develop"
+
+4. Agregar los archivos adicionales en el repositorio para el proyecto: https://github.com/Jossdz/Gatsby-platzi
+
+5. Modificar el archivo: gatsby-config y gatsby-node
+ 
+6. Crear el componente Jumbo: src/components/Jumbo.js
